@@ -5,7 +5,7 @@ using System.Net.Sockets;
 
 namespace TCPServer
 {
-    class Program
+    class MainProgram
     {
         static void Main(string[] args)
         {

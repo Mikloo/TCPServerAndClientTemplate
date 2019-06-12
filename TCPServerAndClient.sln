@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClient", "TCPServerAndCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "TCPServer\TCPServer.csproj", "{336D6543-90B4-4557-836B-C6117D5FC065}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketConcurrent", "SocketConcurrent\SocketConcurrent.csproj", "{F58D8F1B-3011-4039-BCCD-8099E87F1B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketIterative", "SocketIterative\SocketIterative.csproj", "{9C842A97-E1FB-435E-8E01-5BA00BCF405C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{336D6543-90B4-4557-836B-C6117D5FC065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{336D6543-90B4-4557-836B-C6117D5FC065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{336D6543-90B4-4557-836B-C6117D5FC065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58D8F1B-3011-4039-BCCD-8099E87F1B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58D8F1B-3011-4039-BCCD-8099E87F1B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58D8F1B-3011-4039-BCCD-8099E87F1B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58D8F1B-3011-4039-BCCD-8099E87F1B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C842A97-E1FB-435E-8E01-5BA00BCF405C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C842A97-E1FB-435E-8E01-5BA00BCF405C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C842A97-E1FB-435E-8E01-5BA00BCF405C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C842A97-E1FB-435E-8E01-5BA00BCF405C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

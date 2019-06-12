@@ -4,7 +4,7 @@ using System.Net.Sockets;
 
 namespace TCPServerAndClient
 {
-    class Program
+    class MainProgram
     {
         static void Main(string[] args)
         {
