@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServerAndClient", "TCPServerAndClient\TCPServerAndClient.csproj", "{2C8F4D30-6222-4272-97CF-F29AAA704F4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClient", "TCPServerAndClient\TCPClient.csproj", "{2C8F4D30-6222-4272-97CF-F29AAA704F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "TCPServer\TCPServer.csproj", "{336D6543-90B4-4557-836B-C6117D5FC065}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2C8F4D30-6222-4272-97CF-F29AAA704F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C8F4D30-6222-4272-97CF-F29AAA704F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C8F4D30-6222-4272-97CF-F29AAA704F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336D6543-90B4-4557-836B-C6117D5FC065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336D6543-90B4-4557-836B-C6117D5FC065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336D6543-90B4-4557-836B-C6117D5FC065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336D6543-90B4-4557-836B-C6117D5FC065}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
